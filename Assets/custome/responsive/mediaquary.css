@@ -1,0 +1,124 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .mt-md-6 {
+    margin-top: 6rem !important;
+  }
+  .home .shapes-container .background-shape-main {
+    height: 150%;
+    -webkit-transform: translate(25%, -25%) skewY(30deg);
+    transform: translate(25%, -25%) skewY(30deg);
+  }
+  .display-md-2 {
+    font-size: 4.5rem !important;
+  }
+  .app-landing-2-header .shape:nth-child(1) {
+    left: 25%;
+  }
+  .app-landing-2-header .shape:nth-child(2) {
+    left: 55%;
+  }
+  .partners img {
+    opacity: 0.5;
+    transform: scale(0.8);
+    transition: all 0.4s ease;
+  }
+  section [class^="container"] {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .app-safety .shape-circle {
+    right: 15%;
+    top: 5%;
+  }
+  .app-safety .shape-triangle {
+    left: 5%;
+  }
+  .shape-divider {
+    transform: scale(1);
+  }
+  .why-people-love-us .bubble-left {
+    top: 21%;
+  }
+  .why-people-love-us .bubble {
+    max-width: 50%;
+  }
+  .center-x-md {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  .why-people-love-us .bubble-right {
+    right: 3rem;
+  }
+  .why-people-love-us .shape-circle-1 {
+    left: 25%;
+    top: 5%;
+  }
+  .why-people-love-us .shape-circle-2 {
+    left: 22%;
+    top: 25%;
+  }
+  .why-people-love-us .shape.pattern-dots-1 {
+    bottom: 20%;
+    height: 50%;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .home .shapes-container .background-shape-main {
+    -webkit-transform: translate(20%, -30%) skewY(30deg);
+    transform: translate(20%, -30%) skewY(30deg);
+  }
+  nav.navbar {
+    background: transparent;
+    box-shadow: none;
+    border-bottom: none;
+  }
+  .app-landing-2-header .shape:nth-child(1) {
+    left: 35%;
+  }
+  .app-landing-2-header .shape:nth-child(2) {
+    left: 45%;
+  }
+  .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+  }
+  .navbar-nav .btn {
+    border-color: #fff;
+    color: #fff;
+  }
+  .dropdown-menu {
+    display: block;
+    transform: translateX(-50%);
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1260px;
+  }
+  .home .shapes-container .background-shape-main {
+    -webkit-transform: translate(30%, -10%) skewY(30deg);
+    transform: translate(30%, -10%) skewY(30deg);
+  }
+  .app-landing-2-header .shape:nth-child(1) {
+    left: 45%;
+  }
+  .app-landing-2-header .shape:nth-child(2) {
+    left: 65%;
+  }
+}
+/*  Extra Extra large devices **************/
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
